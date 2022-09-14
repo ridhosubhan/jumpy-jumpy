@@ -30,6 +30,7 @@ public class PlayerLife : MonoBehaviour
             healthBar.SetHealth(currentHealth);
             if(currentHealth <= 0){
                 playerDie();
+                Invoke("restartLevel", 1.5f);
             }
         }
     }
