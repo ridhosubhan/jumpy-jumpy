@@ -8,7 +8,6 @@ TagManager:
   - Block
   - Kiwi_Tag
   - Trap_Tag
-  - Death_Fall_Limit
   layers:
   - Default
   - TransparentFX
