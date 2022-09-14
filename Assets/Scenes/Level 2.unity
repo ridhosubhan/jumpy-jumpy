@@ -9348,6 +9348,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6068837999911629955, guid: 1516c1bccb159ce409607449c202b98d, type: 3}
+      propertyPath: speed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6068837999911629955, guid: 1516c1bccb159ce409607449c202b98d, type: 3}
       propertyPath: waypoints.Array.data[0]
       value: 
       objectReference: {fileID: 1770364915}
@@ -78405,7 +78409,7 @@ Tilemap:
   - m_RefCount: 0
     m_Data:
       e00: -7.9330913e+37
-      e01: 1.47e-43
+      e01: 9.1e-44
       e02: -8.584437e+30
       e03: 0
       e10: 5.3e-44
@@ -80255,7 +80259,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6068837999911629955, guid: 1516c1bccb159ce409607449c202b98d, type: 3}
       propertyPath: speed
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6068837999911629955, guid: 1516c1bccb159ce409607449c202b98d, type: 3}
       propertyPath: waypoints.Array.data[0]
