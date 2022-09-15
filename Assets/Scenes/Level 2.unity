@@ -1719,9 +1719,13 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1678313570073121150, guid: d0230b0198a0f554386b1bf2e6298dc2, type: 3}
+      propertyPath: scoreSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 026e56a1afeb88a4d8d563ff073a9e2d, type: 2}
+    - target: {fileID: 1678313570073121150, guid: d0230b0198a0f554386b1bf2e6298dc2, type: 3}
       propertyPath: kiwiText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1128990091}
     - target: {fileID: 1678313570073121151, guid: d0230b0198a0f554386b1bf2e6298dc2, type: 3}
       propertyPath: healthBar
       value: 
