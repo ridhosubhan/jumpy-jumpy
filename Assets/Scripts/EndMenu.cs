@@ -9,7 +9,7 @@ public class EndMenu : MonoBehaviour
     [SerializeField] private FloatSO scoreSO;
 
     private void Start(){
-        scoreText.text = "SCORE : " + scoreSO.Value;
+        scoreText.text = "" + scoreSO.Value;
     }
     
     public void Quit()

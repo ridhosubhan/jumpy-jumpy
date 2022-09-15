@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class PlayerManager : MonoBehaviour
 {
     [SerializeField] GameObject pauseMenuPanel;
+    [SerializeField] FloatSO scoreSO;
     public void PauseGame(){
         Time.timeScale = 0;
         pauseMenuPanel.SetActive(true);
@@ -18,6 +19,7 @@ public class PlayerManager : MonoBehaviour
 
     public void RestartGame(){
         Time.timeScale = 1;
+        scoreSO.Value = 0;
         pauseMenuPanel.SetActive(false);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }

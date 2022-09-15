@@ -1798,6 +1798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuPanel: {fileID: 353566559}
+  scoreSO: {fileID: 11400000, guid: 026e56a1afeb88a4d8d563ff073a9e2d, type: 2}
 --- !u!4 &370615276 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1678313570073121166, guid: d0230b0198a0f554386b1bf2e6298dc2, type: 3}

@@ -61331,6 +61331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuPanel: {fileID: 105930837}
+  scoreSO: {fileID: 11400000, guid: 026e56a1afeb88a4d8d563ff073a9e2d, type: 2}
 --- !u!1001 &1817591107
 PrefabInstance:
   m_ObjectHideFlags: 0
