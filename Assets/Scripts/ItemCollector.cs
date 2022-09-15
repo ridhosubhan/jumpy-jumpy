@@ -12,6 +12,10 @@ public class ItemCollector : MonoBehaviour
 
     [SerializeField] private AudioSource collectItemSoundEffects;
 
+    private void Start(){
+        kiwiText.text = scoreSO.Value.ToString();
+    }
+
     private void OnTriggerEnter2D(Collider2D collision) {
         if(collision.gameObject.CompareTag("Kiwi_Tag")){
             collectItemSoundEffects.Play();

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EndMenu : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class EndMenu : MonoBehaviour
     [SerializeField] private FloatSO scoreSO;
 
     private void Start(){
-        scoreText = "SCORE : " + scoreSO.Value;
+        scoreText.text = "SCORE : " + scoreSO.Value;
     }
     
     public void Quit()
